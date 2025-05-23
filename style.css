@@ -1,0 +1,136 @@
+body {
+    max-width: 1200px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #F9FFF8;
+}
+
+.navbar {
+    background-color: #f1f8e994 !important;
+    border: solid 1px #7955483a;
+}
+
+.navbar-brand{
+    color: #795548;
+    font-weight: 700;
+}
+
+.nav-link-green {
+    position: relative;
+    transition: all 0.3s ease;
+    color: #795548;
+    font-weight: 400;
+}
+
+.nav-link-green::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    transition: width 0.3s ease;
+}
+
+.nav-link-green:hover::after {
+    width: 100%;
+}
+
+
+.nav-link-green {
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 0.500rem;
+    /* arredondamento sutil opcional */
+}
+
+.nav-link-green::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    transition: width 0.3s ease;
+}
+
+.nav-link-green:hover {
+    background-color: #e6f4ea;
+    /* verde claro sutil */
+}
+
+.nav-link-green:hover::after {
+    width: 100%;
+}
+
+
+.btn-green-hover {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-green-hover::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #198754;
+    /* mesmo verde do Bootstrap */
+    transition: width 0.3s ease;
+}
+
+.btn-green-hover:hover {
+    background-color: #e6f4ea;
+    /* verde claro */
+    color: #198754;
+}
+
+.btn-green-hover:hover::after {
+    width: 100%;
+}
+
+
+.custom-carousel-btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo levemente escuro */
+    border-radius: 50%;
+    /* botão circular */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    /* sombra */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50% 50%;
+    /* ícone maior */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* A partir de 767px para baixo, reduz a altura */
+@media (max-width: 767px) {
+    .card-img-top {
+        height: 180px;
+        /* ou outro valor desejado */
+    }
+}
+
+
+
