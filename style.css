@@ -115,6 +115,11 @@ body {
     /* ícone maior */
 }
 
+.card{
+    background: #f8f9fa !important;
+    
+}
+
 .card-img-top {
     width: 100%;
     height: auto;
