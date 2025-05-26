@@ -2,6 +2,31 @@
 
 .nav-link.active {
     font-weight: 400;
-    /* border-top: 2px solid #28a745;  */
-    border-bottom: 2px solid #28a745; 
+    border-bottom: 2px solid #28a745;
+}
+
+.nav-item{
+    font-weight: 600;
+}
+
+
+@media(max-width:657px){
+    .iframe{
+        width: 500px;
+        height: 315px;
+    }
+}
+
+@media(max-width:414px){
+    .iframe{
+        width: 350px;
+        height: 315px;
+    }
+}
+
+@media(max-width: 1194){
+    .iframe{
+        width: 350px;
+        height: 315px;
+    }
 }
