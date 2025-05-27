@@ -6,12 +6,16 @@ body {
     background-color: #F9FFF8;
 }
 
+.bg-destaque {
+    background-color: #f0f0f0;
+}
+
 .navbar {
     /* background-color: #f1f8e994 !important; */
     border: solid 1px #7955483a;
 }
 
-.navbar-brand{
+.navbar-brand {
     /* color: #795548; */
     font-weight: 700;
 }
@@ -115,9 +119,9 @@ body {
     /* ícone maior */
 }
 
-.card{
+.card {
     background: #f8f9fa !important;
-    
+
 }
 
 .card-img-top {
@@ -145,7 +149,7 @@ body {
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 10px rgba(1,0,1,0.5);
+    box-shadow: 2px 2px 10px rgba(1, 0, 1, 0.5);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -168,4 +172,11 @@ body {
     color: #795548;
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
