@@ -50,9 +50,9 @@ body {
 
 .hero-text {
     text-align: center;
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 300px 0 0 0 ;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ footer {
     .navbar-nav .nav-link {
         margin-right: 0;
         margin-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 }
 
@@ -113,15 +113,16 @@ footer {
 }
 
 .social-icons i {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0 15px;
     color: white;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.2s ease, color 0.1s ease;
+    cursor: pointer;
 }
 
 .social-icons i:hover {
     color: #00ff00;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 footer {
