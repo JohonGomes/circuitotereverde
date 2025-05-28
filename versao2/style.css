@@ -99,6 +99,7 @@ footer {
 
     .navbar-nav .nav-link {
         margin-right: 0;
+        margin-left: 0;
         margin-bottom: 10px;
     }
 }
@@ -132,10 +133,10 @@ footer {
     background-color: rgb(220, 226, 223) !important;
     
 }
-
+/* 
 .collapse{
     margin-right: 130px;
-}
+} */
 
 .social-icons-navbar{
     background-color: rgba(80, 117, 95, 0.541);
