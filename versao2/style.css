@@ -1,64 +1,99 @@
+/* ==================================== */
+/* Estilos Globais                      */
+/* ==================================== */
 html,
 body {
     height: 100%;
-    /* margin: 10px 10px; */
     font-family: 'Segoe UI', sans-serif;
-    overflow: hidden;
     border-radius: 10px;
+    margin: 0;
 }
 
 .bg-cover {
     background: url('/versao2/img/dededodedeus_bg2.png') no-repeat center center/cover;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    padding: 20px;
 }
 
-@media (min-width: 992px) {
-    .custom-container {
-        padding-left: 155px;
-        padding-right: 155px;
-    }
-
-    .navbar {
-        margin-top: 25px;
-    }
+/* ==================================== */
+/* Estilos da Navbar                    */
+/* ==================================== */
+.navbar .container-fluid.px-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .navbar-nav .nav-link {
-    padding: 8px 16px;
+    padding: 6px 12px;
     border-radius: 50px;
     transition: all 0.3s ease;
     color: #f5fdf3;
     font-weight: 500;
-    font-size: 20px;
-
+    font-size: 18px;
 }
 
 .navbar-nav .nav-link:hover {
     background-color: #e8dcca;
     border: 2px solid #fff;
     color: #0d3603bd;
-
 }
 
+/* Nota: esta regra está sendo sobrescrita se .nav-item tiver margin-right */
 .navbar-nav .nav-link {
     margin-right: 30px;
 }
 
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    height: 70px;
+    /* ADICIONE: Reduz a altura do logo */
+}
+
+.navbar-collapse {
+    justify-content: center;
+    /* ADICIONE: Centraliza os itens do menu quando colapsado */
+}
+
+/* Estilo do Toggle (ícone de hambúrguer) */
+.custom-toggler i {
+    color: green;
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+/* Fundo do menu colapsado em mobile (quando aberto) */
+.navbar-collapse {
+    background-color: rgba(80, 117, 95, 0.8);
+    /* Fundo para o menu aberto */
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+/* ==================================== */
+/* Estilos do Hero Text                 */
+/* ==================================== */
 .hero-text {
     display: flex;
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
     flex-grow: 1;
-    margin-top: 350px;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-text h1 {
@@ -73,43 +108,17 @@ body {
     color: #fff;
 }
 
+/* ==================================== */
+/* Estilos do Footer                    */
+/* ==================================== */
 footer {
     background: none;
     padding: 10px 0;
     text-align: center;
 }
 
-.social-icons i {
-    font-size: 2rem;
-    margin: 0 15px;
-    color: white;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icons i:hover {
-    color: #00ff00;
-    transform: scale(1.2);
-}
-
-@media (max-width: 768px) {
-    .hero-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .navbar-nav .nav-link {
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0px;
-    }
-}
-
 .social-icons {
     background-color: rgba(80, 117, 95, 0.541);
-    /* cinza translúcido */
     display: inline-block;
     padding: 15px 30px;
     border-radius: 50px;
@@ -128,38 +137,81 @@ footer {
     transform: scale(1.4);
 }
 
+/* Rodapé duplicado, o primeiro 'footer' deveria ser suficiente */
 footer {
     text-align: center;
     padding: 20px 0;
 }
 
+/* ==================================== */
+/* Estilos do Dropdown Menu             */
+/* ==================================== */
 .dropdown-menu {
     border: 1px solid #ffffff3f !important;
     border-radius: 20px;
     z-index: 1050;
-    background-color:#95a39052 !important;
+    background-color: #95a39052 !important;
 }
 
-
-.dropdown-menu a{
+.dropdown-menu a {
     text-align: center;
-    color:#fdfdfd;
+    color: #fdfdfd;
     font-weight: 400;
     padding: 10px;
 }
-/* 
-.collapse{
-    margin-right: 130px;
-} */
 
+/* ==================================== */
+/* Estilos Específicos / Outros         */
+/* ==================================== */
 .social-icons-navbar {
     background-color: rgba(80, 117, 95, 0.541);
-    /* cinza translúcido */
     display: inline-block;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 50px;
+    margin: 0;
 }
 
+/* ==================================== */
+/* Media Queries (Responsividade)       */
+/* ==================================== */
+
+/* Desktop / Tablet Grande */
+@media (min-width: 992px) {
+    .custom-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar {
+        margin-top: 25px;
+    }
+}
+
+/* Tablet / Mobile */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+        /* AJUSTE: Para mobile */
+    }
+}
+
+/* Smartphones menores */
 @media (max-width:414px) {
     .hero-text {
         max-width: 300px;
@@ -176,11 +228,4 @@ footer {
         margin-top: 10px;
         color: #fff;
     }
-}
-
-
-.custom-toggler i {
-    color: green;
-    font-size: 40px;        /* tamanho opcional */
-    margin-left: -10px;     /* move para a esquerda */
 }
