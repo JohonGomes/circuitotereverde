@@ -19,13 +19,13 @@ body {
     justify-content: space-between;
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    /* border-radius: 10px; */
     padding: 20px;
 }
 
 /* ==================================== */
 /* Estilos da Navbar                    */
 /* ==================================== */
+
 .navbar .container-fluid.px-0 {
     display: flex;
     justify-content: center;
@@ -57,10 +57,9 @@ body {
     margin-right: 0;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
     height: 70px;
-    /* ADICIONE: Reduz a altura do logo */
-}
+} */
 
 .navbar-collapse {
     justify-content: center;
@@ -85,6 +84,24 @@ body {
 /* ==================================== */
 /* Estilos do Hero Text                 */
 /* ==================================== */
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid{
+    width: 300px;
+    filter: drop-shadow(0px 4px 8px rgb(240, 213, 213));
+}
+
+@media(max-width: 991px){
+    .img-fluid{
+        width: 50%;
+    }
+
+}
+
 .hero-text {
     display: flex;
     text-align: center;
@@ -94,6 +111,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(80, 117, 95, 0.541);
+    border-radius: 20px;
+    padding: 20px 20px
 }
 
 .hero-text h1 {
@@ -185,7 +205,7 @@ footer {
     }
 
     .navbar {
-        margin-top: 25px;
+        margin-top: 05px;
     }
 }
 
@@ -205,10 +225,9 @@ footer {
         margin-bottom: 0px;
     }
 
-    .navbar-brand img {
+    /* .navbar-brand img {
         height: 60px;
-        /* AJUSTE: Para mobile */
-    }
+    } */
 }
 
 /* Smartphones menores */
