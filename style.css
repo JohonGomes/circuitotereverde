@@ -244,3 +244,23 @@ footer {
         color: #fff;
     }
 }
+
+/* Login */
+
+.modal-content{
+    border-radius: 25px !important;
+    top:100px !important;
+    right:10px !important;
+    width: 500px !important;
+    height: 500px !important;
+}
+
+@media (max-width:530px){
+    .modal-content{
+    border-radius: 25px !important;
+    top:150px !important;
+    left: -3px !important;
+    width: 400px !important;
+    height: 400px !important;
+}
+}
