@@ -5,8 +5,9 @@ html,
 body {
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
-    border-radius: 10px;
     margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
 }
 
 .bg-cover {
@@ -19,7 +20,7 @@ body {
     justify-content: space-between;
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    padding: 10px;
 }
 
 /* ==================================== */
@@ -133,7 +134,7 @@ body {
 /* ==================================== */
 footer {
     background: none;
-    padding: 10px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -157,11 +158,6 @@ footer {
     transform: scale(1.4);
 }
 
-/* Rodapé duplicado, o primeiro 'footer' deveria ser suficiente */
-footer {
-    text-align: center;
-    padding: 20px 0;
-}
 
 /* ==================================== */
 /* Estilos do Dropdown Menu             */
@@ -186,7 +182,7 @@ footer {
 .social-icons-navbar {
     background-color: rgba(80, 117, 95, 0.541);
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: px;
     margin: 0;
 }
