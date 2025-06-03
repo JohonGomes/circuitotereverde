@@ -182,7 +182,7 @@ footer {
 .social-icons-navbar {
     background-color: rgba(80, 117, 95, 0.541);
     display: inline-block;
-    padding: 20px 20px;
+    padding: 15px 30px;
     border-radius: px;
     margin: 0;
 }
@@ -221,9 +221,6 @@ footer {
         margin-bottom: 0px;
     }
 
-    /* .navbar-brand img {
-        height: 60px;
-    } */
 }
 
 /* Smartphones menores */
@@ -253,7 +250,7 @@ footer {
     right: 10px !important;
     width: 500px !important;
     height: 400px !important;
-    background-color: #e9ddcaf3 !important;
+    background-color: #e9ddcaef !important;
     border: 5px solid #d3dfcf3f !important;
     position: relative;
 }
@@ -273,6 +270,6 @@ footer {
     padding: 10px;
 }
 
-.form-control{
+.form-control {
     background-color: #ffffff9f !important;
 }
