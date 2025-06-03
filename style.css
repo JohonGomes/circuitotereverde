@@ -272,3 +272,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.form-control{
+    background-color: #ffffff9f !important;
+}
