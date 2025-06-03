@@ -58,10 +58,6 @@ body {
     margin-right: 0;
 }
 
-/* .navbar-brand img {
-    height: 70px;
-} */
-
 .navbar-collapse {
     justify-content: center;
     /* ADICIONE: Centraliza os itens do menu quando colapsado */
