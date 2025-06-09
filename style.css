@@ -293,3 +293,8 @@ footer {
 .card{
     background-color: rgba(52, 72, 65, 0.733) !important;
 }
+
+
+@media (max-width: 414px){
+    
+}
