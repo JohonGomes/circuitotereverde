@@ -286,7 +286,7 @@ footer {
 .card:hover {
     transform: scale(1.05);
     /* aumenta levemente */
-    box-shadow: 0 10px 20px rgba(231, 224, 224, 0.589);
+    box-shadow: 0 0 20px rgba(231, 224, 224, 0.589);
     /* sombra suave */
 }
 
