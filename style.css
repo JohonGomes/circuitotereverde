@@ -173,9 +173,10 @@ footer {
     padding: 15px;
 }
 
-.dropdown-item{
+.dropdown-item {
     border-radius: 15px !important;
 }
+
 /* ==================================== */
 /* Estilos Específicos / Outros         */
 /* ==================================== */
@@ -272,4 +273,23 @@ footer {
 
 .form-control {
     background-color: #ffffff9f !important;
+}
+
+
+/* Hover cards index */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* aumenta levemente */
+    box-shadow: 0 10px 20px rgba(231, 224, 224, 0.589);
+    /* sombra suave */
+}
+
+.card{
+    background-color: rgba(52, 72, 65, 0.733) !important;
 }

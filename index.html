@@ -40,8 +40,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">parques</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="parnaso.html"
-                                            >Pq. Nacional Serra dos Orgãos
+                                        <a class="dropdown-item" href="parnaso.html">Pq. Nacional Serra dos Orgãos
                                         </a>
                                     </li>
                                     <li>
@@ -83,7 +82,7 @@
                 <img src="img/nova logo tere verde sem fundo.png" class="img-fluid" alt="Logo" />
             </div>
 
-            <div class="hero-text">
+            <!-- <div class="hero-text">
                 <h1>Teresópolis</h1>
                 <p style="text-justify: auto;">
                     Se destaca por suas montanhas, vales e rica biodiversidade. Cercada por áreas de
@@ -94,11 +93,41 @@
                     com a natureza.
                 </p>
                 </p>
+            </div> -->
+
+            <div class="container my-5">
+                <div class="row gap-5">
+                    <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
+                        <img src="https://picsum.photos/200/200" class="card-img-top rounded-4" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
+                        <img src="https://picsum.photos/200/200" class="card-img-top rounded-4" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
+                        <img src="https://picsum.photos/200/200" class="card-img-top rounded-4" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
+                        <img src="https://picsum.photos/200/200" class="card-img-top rounded-4" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <!-- Footer com ícones sociais -->
-        <footer>
+        <footer class="mt-5">
             <div class="social-icons">
                 <i class="fab fa-instagram fa-2x"></i>
                 <i class="fab fa-facebook-f"></i>
@@ -132,6 +161,26 @@
                 }
                 form.classList.add('was-validated');
             }, false);
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cards = document.querySelectorAll(".card");
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    }
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            cards.forEach(card => {
+                observer.observe(card);
+            });
         });
     </script>
 
