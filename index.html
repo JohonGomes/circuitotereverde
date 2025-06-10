@@ -23,7 +23,7 @@
     <div class="bg-cover">
         <div class="custom-container">
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark mx-5">
                 <div class="container-fluid px-0">
                     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -60,7 +60,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">teresópolis</a>
+                                <a class="nav-link" href="#">trilhas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">eventos</a>
@@ -82,25 +82,12 @@
                 <img src="img/nova logo tere verde sem fundo.png" class="img-fluid" alt="Logo" />
             </div>
 
-            <!-- <div class="hero-text">
-                <h1>Teresópolis</h1>
-                <p style="text-justify: auto;">
-                    Se destaca por suas montanhas, vales e rica biodiversidade. Cercada por áreas de
-                    conservação, é ideal para o ecoturismo.<br>
-                <p style="text-justify: auto;">
-                    O <span style="color:#619b4c;font-weight:900">Circuito Terê Verde</span> promove trilhas, escaladas
-                    e o contato
-                    com a natureza.
-                </p>
-                </p>
-            </div> -->
-
             <div class="container my-5">
                 <div class="row gap-4 justify-content-center">
                     <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
                         <img src="https://picsum.photos/200/200" class="card-img-top rounded-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center text-white">Teresópolis</h5>
+                            <h5 class="card-title text-center text-white">A cidade</h5>
                         </div>
                     </div>
                     <div class="card justify-content-center p-3 rounded-4" style="width: 18rem;">
@@ -126,6 +113,16 @@
 
         </div>
 
+        <div id="cookie-consent-banner" style="display: none;">
+            <div class="cookie-content">
+                <p>Este site utiliza cookies para garantir que você tenha a melhor experiência. Ao continuar navegando,
+                    você
+                    concorda com a nossa <a href="/politica-de-privacidade" target="_blank">Política de Privacidade e
+                        Cookies</a>.</p>
+                <button id="accept-cookies-btn">Aceitar e Fechar</button>
+            </div>
+        </div>
+
         <!-- Footer com ícones sociais -->
         <footer class="mt-5">
             <div class="social-icons">
@@ -134,7 +131,8 @@
                 <i class="fab fa-youtube"></i>
                 <i class="fab fa-twitter"></i>
             </div>
-            <p  class="mt-3" style="font-size: 14px; margin-top: 10px;">© 2025 Circuito Terê Verde – Todos os direitos reservados.</p>
+            <p class="mt-3" style="font-size: 14px; margin-top: 10px;">© 2025 Circuito Terê Verde – Todos os direitos
+                reservados.</p>
         </footer>
     </div>
 
@@ -180,6 +178,52 @@
 
             cards.forEach(card => {
                 observer.observe(card);
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const cookieBanner = document.getElementById('cookie-consent-banner');
+            const acceptButton = document.getElementById('accept-cookies-btn');
+
+            // Função para definir um cookie
+            function setCookie(name, value, days) {
+                let expires = "";
+                if (days) {
+                    const date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toUTCString();
+                }
+                document.cookie = name + "=" + (value || "") + expires + "; path=/";
+            }
+
+            // Função para obter um cookie
+            function getCookie(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
+            // Verifica se o cookie de consentimento já existe
+            const consentGiven = getCookie('cookie_consent_given');
+
+            if (!consentGiven) {
+                // Se o consentimento não foi dado, mostra o banner
+                cookieBanner.style.display = 'flex'; // Usamos flex para centralização
+            }
+
+            // Adiciona o evento de clique ao botão de aceitar
+            acceptButton.addEventListener('click', () => {
+                // Define o cookie de consentimento por 365 dias (1 ano)
+                setCookie('cookie_consent_given', 'true', 365);
+                // Esconde o banner
+                cookieBanner.style.display = 'none';
             });
         });
     </script>
