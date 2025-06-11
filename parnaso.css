@@ -91,10 +91,10 @@ body {
     padding: 10px 0;
 }
 
-
 /* ==================================== */
 /* Estilos do Footer                    */
 /* ==================================== */
+
 footer {
     background: none;
     padding: 10px 0;
@@ -204,20 +204,17 @@ footer {
     background-color: #ffffff9f !important;
 }
 
-
 @media (max-width: 991px) {
     .img-fluid {
         margin: 0;
     }
 }
 
-
 .container-fluid-content {
     background-color: rgba(80, 117, 95, 0.541);
     border-radius: 15px;
     margin: 0 20px;
 }
-
 
 .responsive-iframe {
     position: relative;
