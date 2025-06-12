@@ -241,3 +241,16 @@ footer {
 .titulo-parnarso{
     margin-left: 85px;
 }
+
+
+/* Define a cor padrão para os ícones */
+.social-icons-parque {
+    color: #ffffff; /* Cor padrão, ajuste conforme necessário */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave para a cor e escala */
+}
+
+/* Define a cor e a escala ao passar o mouse */
+.social-icons-parque:hover {
+    color: #84d766; /* Cor ao passar o mouse, pode ser a cor do seu tema */
+    transform: scale(1.1); /* Aumenta o ícone em 10% */
+}
