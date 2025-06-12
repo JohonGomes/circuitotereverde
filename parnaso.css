@@ -254,3 +254,7 @@ footer {
     color: #84d766; /* Cor ao passar o mouse, pode ser a cor do seu tema */
     transform: scale(1.1); /* Aumenta o ícone em 10% */
 }
+
+.bg-estrutura{
+    background-color: #ffffff10 !important;
+}
