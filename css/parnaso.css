@@ -296,3 +296,13 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+/* Botão endereço - Parnaso */
+.btn-address {
+    background-color: #25d3656e !important;
+}
+
+.card-address{
+    background-color: #6e715438 !important;
+    border:none;
+}
