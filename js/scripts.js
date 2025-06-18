@@ -1,5 +1,5 @@
 // Carrega o arquivo externo modal-login.html
-fetch('modal-login.html')
+fetch('/modal/modal-login.html')
     .then(response => response.text())
     .then(html => {
         document.body.insertAdjacentHTML('beforeend', html);
