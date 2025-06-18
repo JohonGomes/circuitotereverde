@@ -25,9 +25,11 @@
 
     <div class="bg-cover">
         <div class="custom-container">
-            <nav class="navbar navbar-expand-lg navbar-dark mx-5">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid px-0">
-                    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    <img src="/img/nova logo tere verde sem fundo.png" class="img-fluid" alt="logo">
+
+                    <button class="navbar-toggler custom-toggler ms-auto" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
@@ -36,14 +38,15 @@
                     <div class="collapse navbar-collapse social-icons-navbar" id="navbarNav">
                         <ul class="navbar-nav mx-auto text-center">
                             <li class="nav-item">
-                                <a class="nav-link" href="/index.html"><i class="fa-solid fa-house"></i></a>
+                                <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i></a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">parques</a>
+                                <a class="nav-link dropdown-toggle" href="/pages/parnaso.html"
+                                    data-bs-toggle="dropdown">parques</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="/pages/parnaso.html">Pq. Nacional Serra dos
-                                            Orgãos
+                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                            data-bs-target="#parnaso">Pq. Nacional Serra dos Orgãos
                                         </a>
                                     </li>
                                     <li>
@@ -78,6 +81,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">contatos</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-bs-toggle="modal"
                                     data-bs-target="#modalLogin">login</a>
@@ -125,44 +129,53 @@
                                     <i class="fa-solid fa-angles-down"></i></a>
                             </div>
 
-                            <div class="collapse mt-3" id="hospitais">
-                                <div class="card card-body card-address">
-                                    <p class="mt-4 mx-3"><b>Hospital das Clínicas:</b></p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
-                                    <hr>
-                                    <p class="mt-4 mx-3"><b>Hospital São José</b></p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
-                                    <hr>
-                                    <p class="mt-4 mx-3"><b>Hospital Beneficiência Portuguesa</b></p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
-                                    <hr>
-                                    <p class="mt-4 mx-3"><b>Unidade de Pronto Atendimento</b></p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                            <!-- Agrupador com ID -->
+                            <div id="accordion-addresses">
+
+                                <div class="collapse mt-3" id="hospitais" data-bs-parent="#accordion-addresses">
+                                    <div class="card card-body card-address">
+                                        <p class="mt-4 mx-3"><b>Hospital das Clínicas:</b></p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                        <hr>
+                                        <p class="mt-4 mx-3"><b>Hospital São José</b></p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                        <hr>
+                                        <p class="mt-4 mx-3"><b>Hospital Beneficiência Portuguesa</b></p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                        <hr>
+                                        <p class="mt-4 mx-3"><b>Unidade de Pronto Atendimento</b></p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="collapse mt-3" id="delegacia">
-                                <div class="card card-body card-address">
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+
+                                <div class="collapse mt-3" id="delegacia" data-bs-parent="#accordion-addresses">
+                                    <div class="card card-body card-address">
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="collapse mt-3" id="detran">
-                                <div class="card card-body card-address">
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+
+                                <div class="collapse mt-3" id="detran" data-bs-parent="#accordion-addresses">
+                                    <div class="card card-body card-address">
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="collapse mt-3" id="prefeitura">
-                                <div class="card card-body card-address">
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
-                                    <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+
+                                <div class="collapse mt-3" id="prefeitura" data-bs-parent="#accordion-addresses">
+                                    <div class="card card-body card-address">
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-location-dot"></i> Endereço:</p>
+                                        <p class="mt-1 mx-3"><i class="fa-solid fa-phone"></i> Telefones:</p>
+                                    </div>
                                 </div>
+
                             </div>
                         </section>
+
 
                         <section class="bg-estrutura p-4 rounded-5">
                             <div class="d-flex justify-content-center gap-4 flex-wrap">

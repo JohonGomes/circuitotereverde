@@ -406,3 +406,7 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+.no-link{
+    text-decoration: none;
+}

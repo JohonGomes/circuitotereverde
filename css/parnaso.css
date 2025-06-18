@@ -300,6 +300,7 @@ footer {
 /* Botão endereço - Parnaso */
 .btn-address {
     background-color: #25d3656e !important;
+    width: 18 !important;
 }
 
 .card-address{
