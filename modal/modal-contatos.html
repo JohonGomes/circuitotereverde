@@ -1,0 +1,144 @@
+<div class="modal fade" id="modalContatos" tabindex="-1" aria-labelledby="modalContatos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p class="text-success fw-bold">Entre em contato com o Circuito Terê-Verde</p>
+                <div class="text-center">
+                    <small class="text-body-secondary">Você também pode usar nosso WhatsApp se preferir!</small>
+                </div>
+
+                <form class="p-3" id="formContato">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-success">Qual seu e-mail?</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" required>
+                        <div id="emailHelp" class="form-text text-danger"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputTel" class="form-label text-success">Qual seu telefone?</label>
+                        <input type="tel" class="form-control" id="exampleInputTel" pattern="^\d{2}\s\d{5}-\d{4}$"
+                            title="Digite no formato: 00 00000-0000" required>
+                        <div id="telHelp" class="form-text text-danger"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleMsg" class="form-label text-success">Deixe sua mensagem:</label>
+                        <textarea class="form-control" id="exampleMsg" rows="4" required></textarea>
+                        <div id="msgHelp" class="form-text text-danger"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success py-2 px-5">Enviar mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+// Seleciona o formulário e os campos
+const formContato = document.getElementById('formContato');
+const inputEmail = document.getElementById('exampleInputEmail1');
+const inputTel = document.getElementById('exampleInputTel');
+const inputMsg = document.getElementById('exampleMsg');
+
+// Seleciona os divs onde as mensagens de erro serão exibidas
+const emailErrorDiv = document.getElementById('emailHelp');
+const telErrorDiv = document.getElementById('telHelp');
+const msgErrorDiv = document.getElementById('msgHelp');
+
+// Expressão Regular para validação de e-mail (mais robusta)
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Expressão Regular para validação de telefone NOVO FORMATO "DD 9XXXX-XXXX"
+const telRegex = /^\d{2}\s\d{5}-\d{4}$/;
+
+// --- Funções de Validação ---
+
+function validarEmail() {
+const email = inputEmail.value.trim();
+if (email === '') {
+emailErrorDiv.textContent = 'O e-mail é obrigatório.';
+inputEmail.classList.add('is-invalid');
+return false;
+} else if (!emailRegex.test(email)) {
+emailErrorDiv.textContent = 'Por favor, insira um e-mail válido.';
+inputEmail.classList.add('is-invalid');
+return false;
+} else {
+emailErrorDiv.textContent = '';
+inputEmail.classList.remove('is-invalid');
+inputEmail.classList.add('is-valid');
+return true;
+}
+}
+
+function validarTelefone() {
+const telefone = inputTel.value.trim();
+if (telefone === '') {
+telErrorDiv.textContent = 'O telefone é obrigatório.';
+inputTel.classList.add('is-invalid');
+return false;
+} else if (!telRegex.test(telefone)) {
+telErrorDiv.textContent = 'Por favor, insira um telefone válido no formato "DD 9XXXX-XXXX".'; // Mensagem ajustada
+inputTel.classList.add('is-invalid');
+return false;
+} else {
+telErrorDiv.textContent = '';
+inputTel.classList.remove('is-invalid');
+inputTel.classList.add('is-valid');
+return true;
+}
+}
+
+function validarMensagem() {
+const mensagem = inputMsg.value.trim();
+if (mensagem === '') {
+msgErrorDiv.textContent = 'A mensagem é obrigatória.';
+inputMsg.classList.add('is-invalid');
+return false;
+} else {
+msgErrorDiv.textContent = '';
+inputMsg.classList.remove('is-invalid');
+inputMsg.classList.add('is-valid');
+return true;
+}
+}
+
+// --- Event Listener para o Envio do Formulário ---
+
+formContato.addEventListener('submit', function(event) {
+event.preventDefault(); // Previne o envio padrão
+
+const isEmailValid = validarEmail();
+const isTelValid = validarTelefone();
+const isMsgValid = validarMensagem();
+
+if (isEmailValid && isTelValid && isMsgValid) {
+console.log('Formulário válido! Enviando dados...');
+alert('Mensagem enviada com sucesso! (Simulação)');
+
+const modalElement = document.getElementById('modalContatos');
+const modal = bootstrap.Modal.getInstance(modalElement) || new bootstrap.Modal(modalElement);
+modal.hide();
+
+formContato.reset();
+inputEmail.classList.remove('is-valid', 'is-invalid');
+inputTel.classList.remove('is-valid', 'is-invalid');
+inputMsg.classList.remove('is-valid', 'is-invalid');
+
+} else {
+console.log('Formulário inválido. Verifique os campos.');
+}
+});
+
+// --- Adiciona validação em tempo real ao digitar (opcional) ---
+inputEmail.addEventListener('input', validarEmail);
+inputTel.addEventListener('input', validarTelefone);
+inputMsg.addEventListener('input', validarMensagem);
+
+
+
+</script> -->

@@ -1,9 +1,18 @@
+
 // Carrega o arquivo externo modal-login.html
 fetch('/modal/modal-login.html')
     .then(response => response.text())
     .then(html => {
         document.body.insertAdjacentHTML('beforeend', html);
     });
+
+
+fetch('/modal/modal-contatos.html')
+    .then(response => response.text())
+    .then(html => {
+        document.body.insertAdjacentHTML('beforeend', html);
+    });
+
 
 // Validação de senha
 document.addEventListener('DOMContentLoaded', function () {
@@ -16,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.classList.add('was-validated');
     }, false);
 });
+
 
 // Animação de exibição dos cards
 document.addEventListener("DOMContentLoaded", function () {
