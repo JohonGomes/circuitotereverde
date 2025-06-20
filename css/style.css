@@ -278,7 +278,7 @@ footer {
 
 /* Modal Contatos */
 
-.modal-content, .contatos {
+.modal-content-contatos {
     border-radius: 15px !important;
     top: 100px !important;
     right: 10px !important;
@@ -290,7 +290,7 @@ footer {
 }
 
 @media (max-width:571px) {
-    .modal-content, .contatos {
+    .modal-content-contatos {
         border-radius: 15px !important;
         top: 150px !important;
         left: -3px !important;
