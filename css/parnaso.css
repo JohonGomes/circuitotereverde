@@ -1,0 +1,335 @@
+/* ==================================== */
+/* Estilos Globais                      */
+/* ==================================== */
+html,
+body {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-cover {
+    background: url('/img/fundo-parnaso-mq.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.bg-cover .montanhas {
+    background: url('/img/pq.montanhas.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.bg-cover .bg-cover-tres-picos {
+    background: url('/img/bg-tres-picos.png') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+/* ==================================== */
+/* Estilos da Navbar                    */
+/* ==================================== */
+
+.navbar .container-fluid.px-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.navbar-nav .nav-link {
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #f5fdf3;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e8dcca;
+    border: 2px solid #fff;
+    color: #0d3603bd;
+}
+
+/* Nota: esta regra está sendo sobrescrita se .nav-item tiver margin-right */
+.navbar-nav .nav-link {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    /* ADICIONE: Centraliza os itens do menu quando colapsado */
+}
+
+/* Estilo do Toggle (ícone de hambúrguer) */
+.custom-toggler i {
+    color: green;
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+/* Fundo do menu colapsado em mobile (quando aberto) */
+.navbar-collapse {
+    background-color: rgba(80, 117, 95, 0.8);
+    /* Fundo para o menu aberto */
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+/* ==================================== */
+/* Estilos do Footer                    */
+/* ==================================== */
+
+footer {
+    background: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-icons {
+    background-color: rgba(80, 117, 95, 0.541);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.social-icons i {
+    font-size: 1.8rem;
+    margin: 0 15px;
+    color: white;
+    transition: transform 0.2s ease, color 0.1s ease;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #00ff00;
+    transform: scale(1.4);
+}
+
+/* ==================================== */
+/* Estilos do Dropdown Menu             */
+/* ==================================== */
+.dropdown-menu {
+    border: transparent !important;
+    border-radius: 5px;
+    z-index: 1050;
+    background-color: #96a490 !important;
+    /* background-color: transparent !important; */
+}
+
+.dropdown-menu a {
+    text-align: center;
+    color: #fdfdfd;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.dropdown-item {
+    border-radius: 15px !important;
+}
+
+/* ==================================== */
+/* Estilos Específicos / Outros         */
+/* ==================================== */
+.social-icons-navbar {
+    background-color: rgba(80, 117, 95, 0.541);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: px;
+    margin: 0;
+}
+
+/* ==================================== */
+/* Media Queries (Responsividade)       */
+/* ==================================== */
+
+/* Desktop / Tablet Grande */
+@media (min-width: 992px) {
+    .custom-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar {
+        margin-top: 05px;
+    }
+}
+
+/* Login */
+
+.modal-content {
+    border-radius: 15px !important;
+    top: 100px !important;
+    right: 10px !important;
+    width: 500px !important;
+    height: 400px !important;
+    background-color: #e9ddcaef !important;
+    border: 5px solid #d3dfcf3f !important;
+    position: relative;
+}
+
+@media (max-width:571px) {
+    .modal-content {
+        border-radius: 15px !important;
+        top: 150px !important;
+        left: -3px !important;
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
+
+.modal-body p {
+    text-align: center;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: #ffffff9f !important;
+}
+
+@media (max-width: 991px) {
+    .img-fluid {
+        margin: 0;
+    }
+}
+
+.container-fluid-content {
+    background-color: rgba(80, 117, 95, 0.541);
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 90%;
+    height: 90%;
+    border: 0;
+}
+
+.iframe {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.titulo-parnarso {
+    margin-left: 85px;
+}
+
+
+/* Define a cor padrão para os ícones */
+.social-icons-parque {
+    color: #ffffff;
+    /* Cor padrão, ajuste conforme necessário */
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Transição suave para a cor e escala */
+}
+
+/* Define a cor e a escala ao passar o mouse */
+.social-icons-parque:hover {
+    color: #84d766;
+    /* Cor ao passar o mouse, pode ser a cor do seu tema */
+    transform: scale(1.1);
+    /* Aumenta o ícone em 10% */
+}
+
+.bg-estrutura {
+    background-color: #ffffff10 !important;
+}
+
+
+/* Modal - Parques */
+.modal-custom-size {
+    top: -100px;
+}
+
+
+/* Icone Whatsapp */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: white;
+    text-decoration: none;
+}
+
+/* Botão endereço - Parnaso */
+.btn-address {
+    background-color: #25d3656e !important;
+    width: 18 !important;
+}
+
+.card-address{
+    background-color: #6e71541f !important;
+    border:none;
+}

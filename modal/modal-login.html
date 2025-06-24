@@ -1,0 +1,39 @@
+<!-- modal-login.html -->
+<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLogin" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p class="text-success fw-bold">Login - Administradores</p>
+                <div class="text-center">
+                    <img src="/img/nova logo tere verde sem fundo.png" class="img-fluid w-25" alt="">
+                </div>
+
+                <form class="p-3" id="loginForm">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-success">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required>
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-success">Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            pattern="^(?=.*[A-Z])(?=.*[!@#$%^&*?])[A-Za-z\d!@#$%^&*?]{6,}$"
+                            title="A senha deve ter no mínimo 6 caracteres, incluindo uma letra maiúscula e um caractere especial."
+                            required>
+                        <div class="invalid-feedback">A senha deve ter no mínimo 6 caracteres, incluindo uma letra
+                            maiúscula e um caractere especial.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Manter logado</label>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success py-2 px-5">Logar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
