@@ -26,7 +26,11 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - ** HTML5, CSS3, JavaScript **
 - ** BootStrap (CDN) ***
 - *** Font Awesome para ícones (CDN) ***
-- 
+
+## Imagens do Projeto 
+
+![Tela Inicial](https://www.awesomescreenshot.com/image/55193947?key=624d2ca0bd36c6cfefb1fd9d9a540b3e)
+
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
@@ -43,23 +47,4 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## Estrutura do Projeto
 
-##/circuito-tere-verde
-│
-├── index.html
-├── sobre.html
-├── parques/
-│   ├── serra-dos-orgaos.html
-│   ├── tres-picos.html
-│   └── montanhas-de-teresopolis.html
-├── eventos/
-├── restaurantes/
-├── hospedagens/
-├── login/
-│   └── modal-login.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── img/
-└── admin/
-    ├── painel.html
-    └── scripts/
+
