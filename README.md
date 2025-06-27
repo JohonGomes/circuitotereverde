@@ -61,6 +61,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 ## Imagens do Projeto 
 
 ![ Home ](https://i.postimg.cc/sD9BFZt4/home.png)
+![Página Trilhas](https://i.postimg.cc/QtTtfBQ5/trilha.png)
 
 
 ## 🚀 Instruções para Executar o MVP Localmente
