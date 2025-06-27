@@ -40,20 +40,6 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
   <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
 </p>
 
-
-## 🚀 Instruções para Executar o MVP Localmente
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/johongomes/circuito-tere-verde.git
-2. Navegue até a pasta do projeto:
-   cd circuito-tere-verde
-
-3. Abra o arquivo indext.html diretamente no navegador ou use a extensão como o LIVE SERVER no VSCODE.
-
-** Este projeto é desenvolvido com HTML, CSS e JavaScript puro, sem necessidade de back-end no MVP inicial. A área administrativa e controle de dados podem ser integrados a uma API futura. **
-
-
 ## Estrutura do Projeto
 
 <p align="center">
@@ -65,8 +51,6 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## MVP completo
 [Acessea a versão do MVP e Requisitos aqui: ]( colocar link aqui)
-
-
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
