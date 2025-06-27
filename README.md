@@ -26,19 +26,6 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - **Painel de gestão** para cadastro de eventos, restaurantes e hospedagens
 - Validação de formulários, animações, consentimento de cookies, e navegação responsiva
 
-### Tecnologias Utilizadas
-- ** HTML5, CSS3, JavaScript **
-- ** BootStrap (CDN) ***
-- *** Font Awesome para ícones (CDN) ***
-
-## Imagens do Projeto 
-
-<p align="center">
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
-  <img src="https://i.postimg.cc/DzY6qN60/contatos.png" alt="Cachoeira 2" width="250"/>
-  <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
-</p>
-
 ## 📌 Escolha da Situação-Problema
 
 A cidade de Teresópolis conta com diversas unidades de conservação e atrações naturais que atraem visitantes durante todo o ano. No entanto, a falta de uma plataforma centralizada e acessível dificulta o acesso às informações mais relevantes para turistas e moradores.
@@ -67,6 +54,15 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - *** Font Awesome para ícones (CDN) ***
 
 
+## Imagens do Projeto 
+
+<p align="center">
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
+  <img src="https://i.postimg.cc/DzY6qN60/contatos.png" alt="Cachoeira 2" width="250"/>
+  <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
+</p>
+
+
 ## 🚀 Instruções para Executar o MVP Localmente
 
 1. Clone este repositório:
@@ -87,6 +83,11 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 </p>
 
 [Acessea versão ampliada](https://miro.com/app/board/uXjVIrNaDlE=/)
+
+
+## MVP completo
+[Acessea a versão do MVP e Requisitos aqui: ]( colocar link aqui)
+
 
 
 ## 🚀 Instruções para Executar o MVP Localmente
