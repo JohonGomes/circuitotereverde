@@ -29,7 +29,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## Imagens do Projeto 
 
-![Tela Inicial](https://www.awesomescreenshot.com/image/55193947?key=624d2ca0bd36c6cfefb1fd9d9a540b3e)
+![Tela Inicial](https://i.postimg.cc/SNw9qhsm/home.png)
 
 
 ## 🚀 Instruções para Executar o MVP Localmente
