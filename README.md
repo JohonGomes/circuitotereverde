@@ -65,4 +65,11 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 ** Este projeto é desenvolvido com HTML, CSS e JavaScript puro, sem necessidade de back-end no MVP inicial. A área administrativa e controle de dados podem ser integrados a uma API futura. **
 
 
+## Desenvolvido por:
+- **Johon Gomes**
+- Estudante de Análise e Desenvolvimento no UNIFESO
+- [Linkedin](https://www.linkedin.com/in/johongomes/)
+  
+
+
 
