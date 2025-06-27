@@ -1,5 +1,9 @@
 # 🌿 Circuito Terê Verde
 
+<p align="center">
+  <img src="https://i.postimg.cc/zvDf8dmw/nova-logo-tere-verde-sem-fundo.png" alt="Cachoeira 1" width="250"/>
+</p>
+
 ## 📌 Escolha da Situação-Problema
 
 A cidade de Teresópolis conta com diversas unidades de conservação e atrações naturais que atraem visitantes durante todo o ano. No entanto, a falta de uma plataforma centralizada e acessível dificulta o acesso às informações mais relevantes para turistas e moradores.
@@ -61,17 +65,10 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 ## Imagens do Projeto 
 
 <p align="center">
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Parque 1" width="300"/>
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Parque 2" width="300"/>
-</p>
-
-<p align="center">
   <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 2" width="250"/>
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 3" width="250"/>
+  <img src="https://i.postimg.cc/DzY6qN60/contatos.png" alt="Cachoeira 2" width="250"/>
+  <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
 </p>
-
-
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
