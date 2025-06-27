@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-    padding: 6px 12px;
+    padding: 5px 12px;
     border-radius: 10px;
     transition: all 0.3s ease;
     color: #f5fdf3;
@@ -45,7 +45,7 @@ body {
 
 .navbar-nav .nav-link:hover {
     background-color: #e8dcca;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #0d3603bd;
 }
 
