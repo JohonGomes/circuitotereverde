@@ -42,7 +42,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 
 ## Estrutura do Projeto
-   /circuito-tere-verde
+/circuito-tere-verde
 │
 ├── index.html
 ├── sobre.html
@@ -62,4 +62,3 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 └── admin/
     ├── painel.html
     └── scripts/
-
