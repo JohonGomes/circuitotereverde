@@ -60,8 +60,17 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## Imagens do Projeto 
 
-![ Home ](https://i.postimg.cc/sD9BFZt4/home.png)
-![Página Trilhas](https://i.postimg.cc/QtTtfBQ5/trilha.png)
+<p align="center">
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Parque 1" width="300"/>
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Parque 2" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 2" width="250"/>
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 3" width="250"/>
+</p>
+
 
 
 ## 🚀 Instruções para Executar o MVP Localmente
