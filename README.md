@@ -8,7 +8,7 @@
 
 A cidade de Teresópolis conta com diversas unidades de conservação e atrações naturais que atraem visitantes durante todo o ano. No entanto, a falta de uma plataforma centralizada e acessível dificulta o acesso às informações mais relevantes para turistas e moradores.
 
-## 🧪 Descrição do MVP
+## 📌 Descrição do MVP
 
 O MVP da plataforma **Circuito Terê Verde** é um website que oferece informações essenciais sobre os principais parques, trilhas, cachoeiras, eventos, restaurantes e hospedagens da região. 
 
@@ -26,13 +26,13 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - **Painel de gestão** para cadastro de eventos, restaurantes e hospedagens
 - Validação de formulários, animações, consentimento de cookies, e navegação responsiva
 
-### Tecnologias Utilizadas
+### 📌 Tecnologias Utilizadas
 - ** HTML5, CSS3, JavaScript **
 - ** BootStrap (CDN) ***
 - *** Font Awesome para ícones (CDN) ***
 
 
-## Imagens do Projeto 
+## 📌 Imagens do Projeto 
 
 <p align="center">
   <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
@@ -40,7 +40,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
   <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
 </p>
 
-## Estrutura do Projeto
+## 📌 Estrutura do Projeto
 
 <p align="center">
   <img src="https://i.postimg.cc/y8ppPWY7/estrutura.png" alt="Cachoeira 1" width="500"/>
@@ -49,7 +49,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 [Acessea versão ampliada](https://miro.com/app/board/uXjVIrNaDlE=/)
 
 
-## MVP completo
+## 📌 MVP completo
 [Acesse a versão do MVP e Requisitos aqui: ]( colocar link aqui)
 
 ## 🚀 Instruções para Executar o MVP Localmente
@@ -64,7 +64,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ** Este projeto é desenvolvido com HTML, CSS e JavaScript puro, sem necessidade de back-end no MVP inicial. A área administrativa e controle de dados podem ser integrados a uma API futura. **
 
-## Desenvolvido por:
+## 📌 Desenvolvido por:
 - Johon Gomes.
 - Estudante de Análise e Desenvolvimento no UNIFESO.
 - Projeto da Disciplina : MVP Front end Development.
