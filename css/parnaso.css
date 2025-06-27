@@ -205,7 +205,7 @@ footer {
     top: 100px !important;
     right: 10px !important;
     width: 500px !important;
-    height: 400px !important;
+    height: 500px !important;
     background-color: #e9ddcaef !important;
     border: 5px solid #d3dfcf3f !important;
     position: relative;
@@ -234,6 +234,38 @@ footer {
     .img-fluid {
         margin: 0;
     }
+}
+
+/* Modal Contato */
+
+.modal-content-contatos {
+    border-radius: 15px !important;
+    top: 60px !important;
+    right: 10px !important;
+    width: 500px !important;
+    height: 750px !important;
+    background-color: #e9ddcaef !important;
+    border: 5px solid #d3dfcf3f !important;
+    position: relative;
+}
+
+@media (max-width:571px) {
+    .modal-content-contatos {
+        border-radius: 15px !important;
+        top: 150px !important;
+        left: -3px !important;
+        width: 400px !important;
+        height: 500px !important;
+    }
+}
+
+.modal-body p {
+    text-align: center;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: #ffffff9f !important;
 }
 
 .container-fluid-content {

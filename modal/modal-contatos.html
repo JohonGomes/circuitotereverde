@@ -2,32 +2,34 @@
     <div class="modal-dialog">
         <div class="modal-content modal-content-contatos">
             <div class="modal-body">
-                <p class="text-success fw-bold">Entre em contato com o Circuito Terê-Verde</p>
+                <p class="text-success fw-bold">Envie uma mensagem para gente:</p>
                 <div class="text-center">
                     <img src="/img/nova logo tere verde sem fundo.png" class="img-fluid w-25" alt="">
                 </div>
 
-                <!-- <div class="text-center">
-                    <small class="text-body-secondary">Você também pode usar nosso WhatsApp se preferir!</small>
-                </div> -->
-
                 <form class="p-3" id="formContato">
                     <div class="mb-3">
+                        <label for="nome" class="form-label text-success">Qual seu Nome?</label>
+                        <input type="text" class="form-control" id="nome"minlength="10" placeholder="Escreva seu nome completo" required>
+                        <div id="#" class="form-text text-danger"></div>
+                    </div>
+
+                    <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label text-success">Qual seu e-mail?</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" required>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="seuemail@provedor.com" required>
                         <div id="emailHelp" class="form-text text-danger"></div>
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputTel" class="form-label text-success">Qual seu telefone?</label>
                         <input type="tel" class="form-control" id="exampleInputTel" pattern="^\d{2}\s\d{5}-\d{4}$"
-                            title="Digite no formato: 00 00000-0000" required>
+                            title="Digite no formato: 00 00000-0000" placeholder="00 00000-0000">
                         <div id="telHelp" class="form-text text-danger"></div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="exampleMsg" class="form-label text-success">Deixe sua mensagem:</label>
-                        <textarea class="form-control" id="exampleMsg" rows="4" required></textarea>
+                        <label for="exampleMsg" class="form-label text-success" >Deixe sua mensagem:</label>
+                        <textarea class="form-control" id="exampleMsg" rows="4" minlength="50" maxlength="300" placeholder="Mínimo : 50 carateres"></textarea>
                         <div id="msgHelp" class="form-text text-danger"></div>
                     </div>
 
