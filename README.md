@@ -50,7 +50,7 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 
 ## MVP completo
-[Acessea a versão do MVP e Requisitos aqui: ]( colocar link aqui)
+[Acesse a versão do MVP e Requisitos aqui: ]( colocar link aqui)
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
@@ -64,10 +64,10 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ** Este projeto é desenvolvido com HTML, CSS e JavaScript puro, sem necessidade de back-end no MVP inicial. A área administrativa e controle de dados podem ser integrados a uma API futura. **
 
-
 ## Desenvolvido por:
-- **Johon Gomes**
-- Estudante de Análise e Desenvolvimento no UNIFESO
+- Johon Gomes.
+- Estudante de Análise e Desenvolvimento no UNIFESO.
+- Projeto da Disciplina : MVP Front end Development.
 - [Linkedin](https://www.linkedin.com/in/johongomes/)
   
 
