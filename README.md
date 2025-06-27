@@ -33,7 +33,11 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## Imagens do Projeto 
 
-![ Home ](# 🌿 Circuito Terê Verde
+<p align="center">
+  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
+  <img src="https://i.postimg.cc/DzY6qN60/contatos.png" alt="Cachoeira 2" width="250"/>
+  <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
+</p>
 
 ## 📌 Escolha da Situação-Problema
 
@@ -62,13 +66,6 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - ** BootStrap (CDN) ***
 - *** Font Awesome para ícones (CDN) ***
 
-## Imagens do Projeto 
-
-<p align="center">
-  <img src="https://i.postimg.cc/W4ttJYt5/home.png" alt="Cachoeira 1" width="250"/>
-  <img src="https://i.postimg.cc/DzY6qN60/contatos.png" alt="Cachoeira 2" width="250"/>
-  <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
-</p>
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
@@ -85,8 +82,9 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ## Estrutura do Projeto
 
-)
-
+<p align="center">
+  <img src="https://i.postimg.cc/y8ppPWY7/estrutura.png" alt="Cachoeira 1" width="500"/>
+</p>
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
