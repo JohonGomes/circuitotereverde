@@ -86,6 +86,9 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
   <img src="https://i.postimg.cc/y8ppPWY7/estrutura.png" alt="Cachoeira 1" width="500"/>
 </p>
 
+[Acessea versão ampliada](https://miro.com/app/board/uXjVIrNaDlE=/)
+
+
 ## 🚀 Instruções para Executar o MVP Localmente
 
 1. Clone este repositório:
@@ -98,7 +101,5 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 
 ** Este projeto é desenvolvido com HTML, CSS e JavaScript puro, sem necessidade de back-end no MVP inicial. A área administrativa e controle de dados podem ser integrados a uma API futura. **
 
-
-## Estrutura do Projeto
 
 
