@@ -31,6 +31,11 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
 - ** BootStrap (CDN) ***
 - *** Font Awesome para ícones (CDN) ***
 
+## 📌 Protótipo
+
+Acesse o protótipo no link abaixo:
+[Acesse o Figma](https://www.figma.com/design/uQ7JP6ziQWtH78q4jUSqUH/Circuito-Ter%C3%AA-Verde?node-id=0-1&t=S396NrwBAbqt80Gh-1)
+
 
 ## 📌 Imagens do Projeto 
 
@@ -40,13 +45,12 @@ Ele também inclui uma área administrativa para cadastro e gestão de conteúdo
   <img src="https://i.postimg.cc/1zzMVSpb/login.png" alt="Cachoeira 3" width="250"/>
 </p>
 
+
 ## 📌 Estrutura do Projeto
 
 <p align="center">
   <img src="https://i.postimg.cc/y8ppPWY7/estrutura.png" alt="Cachoeira 1" width="500"/>
 </p>
-
-[Acessea versão ampliada](https://miro.com/app/board/uXjVIrNaDlE=/)
 
 
 ## 📌 MVP completo
