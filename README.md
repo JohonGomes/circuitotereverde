@@ -1,7 +1,7 @@
 # 🌿 Circuito Terê Verde
 
 <p align="center">
-  <img src="https://i.postimg.cc/zvDf8dmw/nova-logo-tere-verde-sem-fundo.png" alt="Cachoeira 1" width="250"/>
+  <img src="https://i.postimg.cc/zvDf8dmw/nova-logo-tere-verde-sem-fundo.png" alt="Logo" width="250"/>
 </p>
 
 ## 📌 Escolha da Situação-Problema
