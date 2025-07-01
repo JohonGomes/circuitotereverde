@@ -73,7 +73,22 @@ Acesse o protótipo no link abaixo:
 - Estudante de Análise e Desenvolvimento no UNIFESO.
 - Projeto da Disciplina : MVP Front end Development.
 - [Linkedin](https://www.linkedin.com/in/johongomes/)
-  
+   
+- Gustavo Ferreira de Oliveira Rodrigues Carneiro
+- Estudante de Análise e Desenvolvimento no UNIFESO.
+- Projeto da Disciplina : MVP Front end Development.
+
+- Luisa Pereira da Rocha
+- Estudante de Análise e Desenvolvimento no UNIFESO.
+- Projeto da Disciplina : MVP Front end Development.
+
+- Matheus Victor Verissimo
+- Estudante de Análise e Desenvolvimento no UNIFESO.
+- Projeto da Disciplina : MVP Front end Development.
+
+- Danielle Medeiros Pimentel
+- Estudante de Análise e Desenvolvimento no UNIFESO.
+- Projeto da Disciplina : MVP Front end Development.
 
 
 
