@@ -54,7 +54,7 @@ Acesse o protótipo no link abaixo:
 
 
 ## 📌 MVP completo
-[Acesse a versão do MVP e Requisitos aqui: ]( colocar link aqui)
+[Acesse a versão do MVP e Requisitos aqui: ](https://drive.google.com/file/d/15VmZAyqFDwSEd-JYeZELz3LjmPZV7E82/view?usp=sharing)
 
 ## 🚀 Instruções para Executar o MVP Localmente
 
